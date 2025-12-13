@@ -21,25 +21,25 @@ This repository will investigate the impacts of urban expansion by analyzing a d
 <div style="text-align: center;">
   <img src="https://arizona-content.usedirect.com/storage1/gallery/3A31D7D859F14752BB8D987B1300EDBB/medium.jpg"
        alt="roadrunner"
-       width="300">
+       width="400">
   <p style="font-size: 0.9em; color: gray;">
     Roadrunner in Arizona. Source: Arizona Game & Fish Department.
   </p>
 </div>
 
+
 ### Learning Highlights 
-- Query BII rasters directly from Python via the Microsoft Planetary Computer STAC API and clip them to Phoenix boundaries
-- Identify and visualize areas of high biodiversity intactness in Phoenix from 2017 to 2020
-- Calculate and visualize areas of loss of high-quality habitat over time 
+- Access BII rasters from the Microsoft Planetary Computer STAC catalog directly from Python via the Microsoft Planetary Computer STAC API and clip them to Phoenix boundaries
+- Identify and visualize areas of high biodiversity intactness in Phoenix from 2017 to 2020 with contextual basemaps
+- Calculate and visualize areas of loss of high-quality habitat over time via raster masks and pixel counts
 
 ### Takeaways 
 The BII analysis reveals pronounced spatial disparities in ecological condition across Phoenix:
 
 - Lower BII values are concentrated in highly urbanized and developed areas, indicating reduced biodiversity intactness in regions experiencing greater human pressure.
-
 - Areas with higher BII values tend to occur in less developed or peripheral zones, where habitat quality has been comparatively better preserved.
 
-Together, these findings highlight the uneven distribution of biodiversity impacts within urban environments and underscore the value of spatially explicit indicators for informing conservation and restoration priorities.
+Together, these findings highlight the uneven distribution of biodiversity impacts within urban environments. Maricopa County experienced the largest increase in developed land compared to all U.S counties between 2001-2021. The results of this analysis provide further evidence of the negative effects of urban expansion on habitat conservation. 
 
 ### Data
 
@@ -56,4 +56,3 @@ Microsoft Planetary Computer. (n.d.). io-biodiversity [STAC collection]. Accesse
 U.S. Census Bureau. (2021). TIGER/Line Shapefile, Current, State of Arizona: County Subdivisions [Data set]. Data.gov. Accessed December 4, 2025, from https://catalog.data.gov/dataset/tiger-line-shapefile-current-state-arizona-county-subdivision
 
 Galaz Garcia, C., & Adams, A. (2025). EDS 220: Working with environmental datasets [Course website]. University of California, Santa Barbara, Master of Environmental Data Science Program. https://meds-eds-220.github.io/MEDS-eds-220-course/
- 
